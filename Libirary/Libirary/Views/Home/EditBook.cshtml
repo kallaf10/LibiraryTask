@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewData["Title"] = "EditBook";
+}
+
+<h1 style="color:white; background-color:darkgray;border-radius:10px;text-align:center">Edit Books</h1>
+@model Book
+<form asp-action="EditBookSave" asp-controller="Home" method="put">
+    <div class="form-group">
+        <input  hidden value=@Model.BSN asp-for=BSN class="form-control" placeholder="Book Serial Number" />
+    </div>
+    <div class="form-group">
+        <label asp-for="bookTitle" class="form-label">Book Tittle</label>
+        <input asp-for="bookTitle" value=@Model.bookTitle class="form-control" placeholder="Book Tittle" />
+        <span asp-validation-for="bookTitle" style="color:red;"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="autorName" class="form-label">authorName</label>
+        <input asp-for="autorName" value=@Model.autorName class="form-control" placeholder="Author Name" />
+        <span asp-validation-for="autorName" style="color:red"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="copies" class="form-label">Copies</label>
+        <input asp-for="copies" min="@Model.copies" value=@Model.copies class="form-control" type="number" placeholder="Copies" />
+        <span asp-validation-for="copies" style="color:red;"></span>
+    </div>
+    <input type="submit" value="Submit" class="btn btn-outline-success form-control" style="margin-top:20px;" />
+</form>

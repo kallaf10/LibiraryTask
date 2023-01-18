@@ -19,11 +19,14 @@
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        <li class="nav-item btn btn-outline-primary"style="margin-top:20px;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AddNewbook">Add New Book</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        <li class="nav-item btn btn-outline-primary" style="margin-left:10px; margin-top:20px;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="BorrowingSystem">Borrowing System</a>
+                        </li>  
+                        <li class="nav-item btn btn-outline-primary" style="margin-left:10px; margin-top:20px;">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="BackingBooksupSystem"> Backing Books Up</a>
                         </li>
                     </ul>
                 </div>
@@ -38,7 +41,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - Libirary - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2023 - Libirary -
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

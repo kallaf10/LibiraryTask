@@ -15,6 +15,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\Projects\LibiraryTask\Libirary\Libirary
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/Projects/LibiraryTask/Libirary/Libirary/Views/Home/AddNewbook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZGROZXdib29rLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projects/LibiraryTask/Libirary/Libirary/Views/Home/BackingBooksupSystem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCYWNraW5nQm9va3N1cFN5c3RlbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projects/LibiraryTask/Libirary/Libirary/Views/Home/BorrowingSystem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxCb3Jyb3dpbmdTeXN0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/Projects/LibiraryTask/Libirary/Libirary/Views/Home/EditBook.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0Qm9vay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/Projects/LibiraryTask/Libirary/Libirary/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

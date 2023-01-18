@@ -1,0 +1,25 @@
+﻿@model Book
+@{
+    ViewData["Title"] = "AddNewbookView";
+}
+
+<h1 style="color:white; background-color:darkgray;border-radius:10px;text-align:center">Add New book</h1>
+
+<form asp-action="AddNewBook" asp-controller="Home" method="post">
+    <div class="form-group">
+        <label asp-for="bookTitle" class="form-label">Book Tittle</label>
+        <input asp-for="bookTitle" class="form-control" placeholder="Book Tittle"/>
+        <span asp-validation-for="bookTitle" style="color:red;"></span>
+    </div>   
+    <div class="form-group">
+        <label asp-for="autorName" class="form-label">authorName</label>
+        <input asp-for="autorName" class="form-control" placeholder="Author Name" />
+        <span asp-validation-for="autorName" style="color:red"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="copies" class="form-label">Copies</label>
+        <input asp-for="copies" class="form-control" type="number" placeholder="Copies" />
+        <span asp-validation-for="copies" style="color:red;"></span>
+    </div>
+                                <input type="submit" value="Submit" class="btn btn-outline-success form-control"style="margin-top:20px;"/>
+</form>
